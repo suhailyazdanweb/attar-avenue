@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo-box {
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* @layer components {
+  .video{
+    @apply px-12 py-14 bg-gray-200 text-center shadow-md;
+  }
+}
+
+@layer utilities {
+  .grid-custom {
+    grid-template-columns: repeat(3, minmax(0, max-content));
+  }
+} */
